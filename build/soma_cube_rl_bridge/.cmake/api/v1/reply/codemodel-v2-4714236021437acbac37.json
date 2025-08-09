@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fd80312a5df2abd6c7c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "soma_cube_rl_bridge__py",
+					"jsonFile" : "directory-soma_cube_rl_bridge__py-63c782d83ae0eb43cda2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jack/ros2_ws/build/soma_cube_rl_bridge/soma_cube_rl_bridge__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "soma_cube_rl_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_soma_cube_rl_bridge_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_soma_cube_rl_bridge_egg-7df339d2bf9b685d5b08.json",
+					"name" : "ament_cmake_python_build_soma_cube_rl_bridge_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_soma_cube_rl_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_soma_cube_rl_bridge-2f0330865da759592302.json",
+					"name" : "ament_cmake_python_copy_soma_cube_rl_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_proxy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_proxy_node-ceb06f8f4f3b3431333b.json",
+					"name" : "motion_proxy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rl_env_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rl_env_node-fa1144ae928be848457b.json",
+					"name" : "rl_env_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safety_monitor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safety_monitor_node-889e59f1f98233c4b940.json",
+					"name" : "safety_monitor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge-20646995a1e5269636dc.json",
+					"name" : "soma_cube_rl_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__cpp-09371f09689ee60db5ca.json",
+					"name" : "soma_cube_rl_bridge__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "soma_cube_rl_bridge__py::@53b36410479d21b31274",
+					"jsonFile" : "target-soma_cube_rl_bridge__py-230d00b225e254fe0efc.json",
+					"name" : "soma_cube_rl_bridge__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_generator_c-41111a13daea11c6baac.json",
+					"name" : "soma_cube_rl_bridge__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_generator_py-e226e162f0db19901c4a.json",
+					"name" : "soma_cube_rl_bridge__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_c-b4e3fa023b7c10e17571.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_c__pyext-2d2d3030cc9807246e9e.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_cpp-fe2ca17b36088b42fd14.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c-ae5eea2d2fa6a3269964.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c__pyext-1bae43f90d753621643a.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp-460691602e0b61b78a20.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_introspection_c-233284cde43315f9612a.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_introspection_c__pyext-e79f8ee866ce697bd84d.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp-3b47a45f2ea08548165f.json",
+					"name" : "soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soma_cube_rl_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soma_cube_rl_bridge_uninstall-0d82b65a794c3351be6b.json",
+					"name" : "soma_cube_rl_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8e74f1a29f81b65f38d5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jack/ros2_ws/build/soma_cube_rl_bridge",
+		"source" : "/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

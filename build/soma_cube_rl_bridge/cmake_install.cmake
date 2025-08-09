@@ -488,6 +488,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soma_cube_rl_bridge/training_system" TYPE DIRECTORY FILES "/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/training_system/" USE_SOURCE_PERMISSIONS)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soma_cube_rl_bridge" TYPE DIRECTORY FILES "/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/include/soma_cube_rl_bridge/")
 endif()
 

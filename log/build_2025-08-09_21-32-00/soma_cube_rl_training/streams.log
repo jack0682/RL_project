@@ -1,0 +1,26 @@
+[0.680s] Invoking command in '/home/jack/ros2_ws/src/soma_cube_rl_training': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2 LD_LIBRARY_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib:/home/jack/ros2_ws/install/dsr_msgs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_ws/build/soma_cube_rl_training/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages:/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages:/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma_cube_rl_training build --build-base /home/jack/ros2_ws/build/soma_cube_rl_training/build install --record /home/jack/ros2_ws/build/soma_cube_rl_training/install.log --single-version-externally-managed install_data
+[0.965s] running egg_info
+[0.967s] writing ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/PKG-INFO
+[0.967s] writing dependency_links to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/dependency_links.txt
+[0.967s] writing entry points to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/entry_points.txt
+[0.967s] writing requirements to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/requires.txt
+[0.967s] writing top-level names to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/top_level.txt
+[0.967s] reading manifest file '../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/SOURCES.txt'
+[0.970s] writing manifest file '../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/SOURCES.txt'
+[0.970s] running build
+[0.970s] running build_py
+[0.970s] copying soma_cube_rl_training/__init__.py -> /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[0.970s] running install
+[0.970s] running install_lib
+[0.970s] copying /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training/__init__.py -> /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[0.970s] byte-compiling /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training/__init__.py to __init__.cpython-310.pyc
+[0.971s] running install_data
+[0.971s] running install_egg_info
+[0.972s] removing '/home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training-1.0.0-py3.10.egg-info' (and everything under it)
+[0.973s] Copying ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training-1.0.0-py3.10.egg-info
+[0.974s] running install_scripts
+[0.991s] Installing demo_training script to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/soma_cube_rl_training
+[0.993s] Installing rl_client script to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/soma_cube_rl_training
+[0.993s] Installing train_somacube script to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/soma_cube_rl_training
+[0.993s] writing list of installed files to '/home/jack/ros2_ws/build/soma_cube_rl_training/install.log'
+[1.011s] Invoked command in '/home/jack/ros2_ws/src/soma_cube_rl_training' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2 LD_LIBRARY_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib:/home/jack/ros2_ws/install/dsr_msgs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_ws/build/soma_cube_rl_training/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages:/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages:/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma_cube_rl_training build --build-base /home/jack/ros2_ws/build/soma_cube_rl_training/build install --record /home/jack/ros2_ws/build/soma_cube_rl_training/install.log --single-version-externally-managed install_data

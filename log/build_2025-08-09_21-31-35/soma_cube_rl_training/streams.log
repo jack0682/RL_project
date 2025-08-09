@@ -1,0 +1,50 @@
+[0.840s] Invoking command in '/home/jack/ros2_ws/src/soma_cube_rl_training': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2 LD_LIBRARY_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib:/home/jack/ros2_ws/install/dsr_msgs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_ws/build/soma_cube_rl_training/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages:/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages:/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma_cube_rl_training build --build-base /home/jack/ros2_ws/build/soma_cube_rl_training/build install --record /home/jack/ros2_ws/build/soma_cube_rl_training/install.log --single-version-externally-managed install_data
+[1.125s] running egg_info
+[1.125s] creating ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info
+[1.128s] writing ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/PKG-INFO
+[1.128s] writing dependency_links to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/dependency_links.txt
+[1.128s] writing entry points to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/entry_points.txt
+[1.128s] writing requirements to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/requires.txt
+[1.129s] writing top-level names to ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/top_level.txt
+[1.129s] writing manifest file '../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/SOURCES.txt'
+[1.129s] reading manifest file '../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/SOURCES.txt'
+[1.132s] running build
+[1.132s] running build_py
+[1.132s] creating /home/jack/ros2_ws/build/soma_cube_rl_training/build
+[1.132s] creating /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib
+[1.132s] creating /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[1.132s] copying soma_cube_rl_training/__init__.py -> /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[1.132s] copying soma_cube_rl_training/sac_trainer.py -> /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[1.132s] copying soma_cube_rl_training/demo_training.py -> /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[1.132s] copying soma_cube_rl_training/rl_client.py -> /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[1.132s] copying soma_cube_rl_training/train_somacube.py -> /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training
+[1.132s] running install
+[1.132s] running install_lib
+[1.132s] creating /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[1.132s] copying /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training/__init__.py -> /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[1.133s] copying /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training/sac_trainer.py -> /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[1.133s] copying /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training/demo_training.py -> /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[1.133s] copying /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training/rl_client.py -> /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[1.133s] copying /home/jack/ros2_ws/build/soma_cube_rl_training/build/lib/soma_cube_rl_training/train_somacube.py -> /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training
+[1.137s] byte-compiling /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training/__init__.py to __init__.cpython-310.pyc
+[1.137s] byte-compiling /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training/sac_trainer.py to sac_trainer.cpython-310.pyc
+[1.137s] byte-compiling /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training/demo_training.py to demo_training.cpython-310.pyc
+[1.137s] byte-compiling /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training/rl_client.py to rl_client.cpython-310.pyc
+[1.137s] byte-compiling /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training/train_somacube.py to train_somacube.cpython-310.pyc
+[1.138s] running install_data
+[1.138s] creating /home/jack/ros2_ws/install/soma_cube_rl_training/share/ament_index
+[1.139s] creating /home/jack/ros2_ws/install/soma_cube_rl_training/share/ament_index/resource_index
+[1.139s] creating /home/jack/ros2_ws/install/soma_cube_rl_training/share/ament_index/resource_index/packages
+[1.139s] copying resource/soma_cube_rl_training -> /home/jack/ros2_ws/install/soma_cube_rl_training/share/ament_index/resource_index/packages
+[1.139s] copying package.xml -> /home/jack/ros2_ws/install/soma_cube_rl_training/share/soma_cube_rl_training
+[1.139s] creating /home/jack/ros2_ws/install/soma_cube_rl_training/share/soma_cube_rl_training/launch
+[1.139s] creating /home/jack/ros2_ws/install/soma_cube_rl_training/share/soma_cube_rl_training/config
+[1.139s] running install_egg_info
+[1.142s] Copying ../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages/soma_cube_rl_training-1.0.0-py3.10.egg-info
+[1.142s] running install_scripts
+[1.159s] Installing demo_training script to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/soma_cube_rl_training
+[1.160s] Installing rl_client script to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/soma_cube_rl_training
+[1.160s] Installing train_somacube script to /home/jack/ros2_ws/install/soma_cube_rl_training/lib/soma_cube_rl_training
+[1.160s] writing list of installed files to '/home/jack/ros2_ws/build/soma_cube_rl_training/install.log'
+[1.180s] Invoked command in '/home/jack/ros2_ws/src/soma_cube_rl_training' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2 LD_LIBRARY_PATH=/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib:/home/jack/ros2_ws/install/dsr_msgs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_ws/build/soma_cube_rl_training/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/soma_cube_rl_training/lib/python3.10/site-packages:/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages:/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma_cube_rl_training build --build-base /home/jack/ros2_ws/build/soma_cube_rl_training/build install --record /home/jack/ros2_ws/build/soma_cube_rl_training/install.log --single-version-externally-managed install_data

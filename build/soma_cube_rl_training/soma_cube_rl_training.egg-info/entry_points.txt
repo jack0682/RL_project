@@ -1,0 +1,5 @@
+[console_scripts]
+demo_training = soma_cube_rl_training.demo_training:main
+rl_client = soma_cube_rl_training.rl_client:main
+train_somacube = soma_cube_rl_training.train_somacube:main
+

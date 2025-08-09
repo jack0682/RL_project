@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/PKG-INFO
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/SOURCES.txt
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/dependency_links.txt
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/entry_points.txt
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/requires.txt
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/top_level.txt
+../../build/soma_cube_rl_training/soma_cube_rl_training.egg-info/zip-safe
+resource/soma_cube_rl_training
+soma_cube_rl_training/__init__.py
+soma_cube_rl_training/demo_training.py
+soma_cube_rl_training/rl_client.py
+soma_cube_rl_training/sac_trainer.py
+soma_cube_rl_training/train_somacube.py
