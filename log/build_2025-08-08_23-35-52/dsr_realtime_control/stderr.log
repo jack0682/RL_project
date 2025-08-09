@@ -1,0 +1,1053 @@
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)[m[K’
+   21 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   21 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   21 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   21 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   21 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)[m[K’
+   29 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   29 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   29 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   29 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   29 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)[m[K’
+   38 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   38 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   38 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   38 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   38 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)[m[K’
+   46 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   46 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   46 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   46 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   46 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)[m[K’
+   54 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   54 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   54 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   54 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   54 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)[m[K’
+   62 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   62 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   62 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   62 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   62 | [01;36m[K}[m[K;
+      | [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   64 | Vector6f deg_q_d{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   64 | Vector6f deg_q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   64 | Vector6f deg_q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   64 | Vector6f deg_q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   64 | Vector6f deg_q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                                 [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   68 | Vector6f q_d{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                         [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   68 | Vector6f q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                         [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   68 | Vector6f q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                         [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   68 | Vector6f q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                         [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   68 | Vector6f q_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                         [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   69 | Vector6f q_dot_d{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   69 | Vector6f q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   69 | Vector6f q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   69 | Vector6f q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   69 | Vector6f q_dot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                             [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                              [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                              [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                              [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                              [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                               [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                               [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                               [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                               [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0[01;31m[K}[m[K;
+      |                                [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  387 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kint[m[K’
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  376 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  299 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  291 |     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(const T& x)
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0[01;36m[K}[m[K;
+      |                                [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:458[m[K,
+                 from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17[m[K,
+                 from [01m[K/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4[m[K:
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  368 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  355 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double][m[K’
+  345 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+  259 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+      |                         [01;36m[K^~~~~~[m[K
+[01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 6 provided
+gmake[2]: *** [CMakeFiles/dsr_realtime_api.dir/build.make:76: CMakeFiles/dsr_realtime_api.dir/src/realtime_api.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/dsr_realtime_api.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

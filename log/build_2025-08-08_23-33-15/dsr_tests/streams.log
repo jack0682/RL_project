@@ -1,0 +1,33 @@
+[0.701s] Invoking command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2 LD_LIBRARY_PATH=/home/jack/ros2_ws/install/dsr_msgs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_ws/build/dsr_tests/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages:/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dsr_tests build --build-base /home/jack/ros2_ws/build/dsr_tests/build install --record /home/jack/ros2_ws/build/dsr_tests/install.log --single-version-externally-managed install_data
+[0.897s] running egg_info
+[0.897s] creating ../../../build/dsr_tests/dsr_tests.egg-info
+[0.897s] writing ../../../build/dsr_tests/dsr_tests.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../../build/dsr_tests/dsr_tests.egg-info/dependency_links.txt
+[0.898s] writing entry points to ../../../build/dsr_tests/dsr_tests.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../../build/dsr_tests/dsr_tests.egg-info/requires.txt
+[0.898s] writing top-level names to ../../../build/dsr_tests/dsr_tests.egg-info/top_level.txt
+[0.898s] writing manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+[0.899s] reading manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+[0.899s] writing manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+[0.899s] running build
+[0.899s] running build_py
+[0.899s] creating /home/jack/ros2_ws/build/dsr_tests/build
+[0.899s] creating /home/jack/ros2_ws/build/dsr_tests/build/lib
+[0.899s] creating /home/jack/ros2_ws/build/dsr_tests/build/lib/dsr_tests
+[0.900s] copying dsr_tests/__init__.py -> /home/jack/ros2_ws/build/dsr_tests/build/lib/dsr_tests
+[0.900s] running install
+[0.900s] running install_lib
+[0.900s] creating /home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests
+[0.900s] copying /home/jack/ros2_ws/build/dsr_tests/build/lib/dsr_tests/__init__.py -> /home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests
+[0.901s] byte-compiling /home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests/__init__.py to __init__.cpython-310.pyc
+[0.901s] running install_data
+[0.901s] creating /home/jack/ros2_ws/install/dsr_tests/share/ament_index
+[0.901s] creating /home/jack/ros2_ws/install/dsr_tests/share/ament_index/resource_index
+[0.901s] creating /home/jack/ros2_ws/install/dsr_tests/share/ament_index/resource_index/packages
+[0.901s] copying resource/dsr_tests -> /home/jack/ros2_ws/install/dsr_tests/share/ament_index/resource_index/packages
+[0.901s] copying package.xml -> /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests
+[0.901s] copying launch/dsr_bringup_without_spawner_test.launch.py -> /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests
+[0.901s] copying launch/dsr_spawner_cli_test.launch.py -> /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests
+[0.901s] creating /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests/m0609_block_assembly_rl
+[0.901s] error: can't copy 'dsr_tests/m0609_block_assembly_rl/requirements.txt': doesn't exist or not a regular file
+[0.913s] Invoked command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests' returned '1': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2 LD_LIBRARY_PATH=/home/jack/ros2_ws/install/dsr_msgs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_ws/build/dsr_tests/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages:/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dsr_tests build --build-base /home/jack/ros2_ws/build/dsr_tests/build install --record /home/jack/ros2_ws/build/dsr_tests/install.log --single-version-externally-managed install_data

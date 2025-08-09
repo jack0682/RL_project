@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from soma_cube_rl_bridge/srv/RLStep.srv
+// generated code does not contain a copyright notice
+
+
+module soma_cube_rl_bridge {
+  module srv {
+    struct RLStep_Request {
+      sequence<double> action;
+    };
+    struct RLStep_Response {
+      sequence<double> obs;
+
+      double reward;
+
+      boolean done;
+
+      string info;
+
+      boolean success;
+    };
+  };
+};

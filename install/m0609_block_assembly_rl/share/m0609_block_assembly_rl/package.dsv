@@ -1,0 +1,6 @@
+source;share/m0609_block_assembly_rl/hook/pythonpath.ps1
+source;share/m0609_block_assembly_rl/hook/pythonpath.dsv
+source;share/m0609_block_assembly_rl/hook/pythonpath.sh
+source;share/m0609_block_assembly_rl/hook/ament_prefix_path.ps1
+source;share/m0609_block_assembly_rl/hook/ament_prefix_path.dsv
+source;share/m0609_block_assembly_rl/hook/ament_prefix_path.sh

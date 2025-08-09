@@ -1,0 +1,4 @@
+
+bool safe_to_move
+string reason
+builtin_interfaces/Time last_event_time

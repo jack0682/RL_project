@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from soma_cube_rl_bridge/srv/RLReset.srv
+// generated code does not contain a copyright notice
+
+
+module soma_cube_rl_bridge {
+  module srv {
+    struct RLReset_Request {
+      int32 seed;
+    };
+    struct RLReset_Response {
+      sequence<double> initial_obs;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

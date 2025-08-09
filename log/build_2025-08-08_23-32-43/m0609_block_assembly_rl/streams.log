@@ -1,0 +1,96 @@
+[0.477s] Invoking command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/m0609_block_assembly_rl': PYTHONPATH=/home/jack/ros2_ws/build/m0609_block_assembly_rl/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/m0609_block_assembly_rl build --build-base /home/jack/ros2_ws/build/m0609_block_assembly_rl/build install --record /home/jack/ros2_ws/build/m0609_block_assembly_rl/install.log --single-version-externally-managed install_data
+[0.669s] running egg_info
+[0.669s] creating ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info
+[0.669s] writing ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/requires.txt
+[0.670s] writing top-level names to ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/top_level.txt
+[0.670s] writing manifest file '../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/SOURCES.txt'
+[0.671s] reading manifest file '../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/SOURCES.txt'
+[0.671s] writing manifest file '../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info/SOURCES.txt'
+[0.671s] running build
+[0.671s] running build_py
+[0.671s] creating /home/jack/ros2_ws/build/m0609_block_assembly_rl/build
+[0.671s] creating /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib
+[0.672s] creating /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/fixed_ppo_agent.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/fixed_train.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/hierarchical_train.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/lower_level_controller.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/soma_cube_environment.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/ros2_launch_node.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/upper_level_planner.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/logging_utils.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/ppo_agent.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/__init__.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/validation_test.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.672s] copying m0609_block_assembly_rl/visualization_utils.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/curriculum_learning.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/quick_test.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/environment.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/domain_randomization.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/ros2_soma_interface.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/soma_cube_demo.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/evaluate.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] copying m0609_block_assembly_rl/train.py -> /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl
+[0.673s] running install
+[0.674s] running install_lib
+[0.674s] creating /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.674s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/fixed_ppo_agent.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.674s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/fixed_train.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.674s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/hierarchical_train.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.674s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/lower_level_controller.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/soma_cube_environment.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/ros2_launch_node.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/upper_level_planner.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/logging_utils.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/ppo_agent.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/__init__.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/validation_test.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/visualization_utils.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/curriculum_learning.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/quick_test.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/environment.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/domain_randomization.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.675s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/ros2_soma_interface.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.676s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/soma_cube_demo.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.676s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/evaluate.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.676s] copying /home/jack/ros2_ws/build/m0609_block_assembly_rl/build/lib/m0609_block_assembly_rl/train.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl
+[0.676s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/fixed_ppo_agent.py to fixed_ppo_agent.cpython-310.pyc
+[0.678s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/fixed_train.py to fixed_train.cpython-310.pyc
+[0.680s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/hierarchical_train.py to hierarchical_train.cpython-310.pyc
+[0.681s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/lower_level_controller.py to lower_level_controller.cpython-310.pyc
+[0.684s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/soma_cube_environment.py to soma_cube_environment.cpython-310.pyc
+[0.686s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/ros2_launch_node.py to ros2_launch_node.cpython-310.pyc
+[0.687s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/upper_level_planner.py to upper_level_planner.cpython-310.pyc
+[0.688s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/logging_utils.py to logging_utils.cpython-310.pyc
+[0.690s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/ppo_agent.py to ppo_agent.cpython-310.pyc
+[0.692s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/__init__.py to __init__.cpython-310.pyc
+[0.692s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/validation_test.py to validation_test.cpython-310.pyc
+[0.694s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/visualization_utils.py to visualization_utils.cpython-310.pyc
+[0.696s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/curriculum_learning.py to curriculum_learning.cpython-310.pyc
+[0.698s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/quick_test.py to quick_test.cpython-310.pyc
+[0.698s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/environment.py to environment.cpython-310.pyc
+[0.701s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/domain_randomization.py to domain_randomization.cpython-310.pyc
+[0.703s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/ros2_soma_interface.py to ros2_soma_interface.cpython-310.pyc
+[0.705s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/soma_cube_demo.py to soma_cube_demo.cpython-310.pyc
+[0.706s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/evaluate.py to evaluate.cpython-310.pyc
+[0.709s] byte-compiling /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl/train.py to train.cpython-310.pyc
+[0.710s] running install_data
+[0.710s] creating /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/ament_index
+[0.711s] creating /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/ament_index/resource_index
+[0.711s] creating /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/ament_index/resource_index/packages
+[0.711s] copying resource/m0609_block_assembly_rl -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/ament_index/resource_index/packages
+[0.711s] copying package.xml -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/m0609_block_assembly_rl
+[0.711s] creating /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/m0609_block_assembly_rl/launch
+[0.711s] copying launch/soma_cube_rl.launch.py -> /home/jack/ros2_ws/install/m0609_block_assembly_rl/share/m0609_block_assembly_rl/launch
+[0.711s] running install_egg_info
+[0.712s] Copying ../../../build/m0609_block_assembly_rl/m0609_block_assembly_rl.egg-info to /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages/m0609_block_assembly_rl-0.0.0-py3.10.egg-info
+[0.712s] running install_scripts
+[0.724s] Installing soma_demo script to /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/m0609_block_assembly_rl
+[0.724s] Installing soma_rl_node script to /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/m0609_block_assembly_rl
+[0.724s] Installing soma_train script to /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/m0609_block_assembly_rl
+[0.724s] Installing soma_validation script to /home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/m0609_block_assembly_rl
+[0.724s] writing list of installed files to '/home/jack/ros2_ws/build/m0609_block_assembly_rl/install.log'
+[0.738s] Invoked command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/m0609_block_assembly_rl' returned '0': PYTHONPATH=/home/jack/ros2_ws/build/m0609_block_assembly_rl/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/m0609_block_assembly_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/m0609_block_assembly_rl build --build-base /home/jack/ros2_ws/build/m0609_block_assembly_rl/build install --record /home/jack/ros2_ws/build/m0609_block_assembly_rl/install.log --single-version-externally-managed install_data

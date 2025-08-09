@@ -1,0 +1,9 @@
+[console_scripts]
+rl_metrics_publisher = m0609_block_assembly_rl.rl_metrics_publisher:main
+rl_training_node = m0609_block_assembly_rl.rl_training_node:main
+simple_rl_training_node = m0609_block_assembly_rl.simple_rl_training_node:main
+soma_demo = m0609_block_assembly_rl.soma_cube_demo:main
+soma_rl_node = m0609_block_assembly_rl.ros2_launch_node:main
+soma_train = m0609_block_assembly_rl.fixed_train:main
+soma_validation = m0609_block_assembly_rl.validation_test:main
+

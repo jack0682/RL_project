@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.c.o"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.c.o.d"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/safety_state__type_support.c.o"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/safety_state__type_support.c.o.d"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.c.o"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.c.o.d"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.c.o"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.c.o.d"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_step__type_support.c.o"
+  "CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_step__type_support.c.o.d"
+  "libsoma_cube_rl_bridge__rosidl_typesupport_introspection_c.pdb"
+  "libsoma_cube_rl_bridge__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/rl_observation__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.c"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/safety_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/safety_state__type_support.c"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/get_safety_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.c"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_reset__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.c"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_step__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_step__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

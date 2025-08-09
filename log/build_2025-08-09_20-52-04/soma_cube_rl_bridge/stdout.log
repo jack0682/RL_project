@@ -1,0 +1,31 @@
+Consolidate compiler generated dependencies of target soma_cube_rl_bridge__rosidl_generator_c
+[  1%] Built target soma_cube_rl_bridge__cpp
+[  1%] Built target ament_cmake_python_copy_soma_cube_rl_bridge
+[ 11%] Built target soma_cube_rl_bridge__rosidl_generator_c
+Consolidate compiler generated dependencies of target soma_cube_rl_bridge__rosidl_typesupport_cpp
+Consolidate compiler generated dependencies of target soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp
+Consolidate compiler generated dependencies of target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp
+[ 21%] Built target soma_cube_rl_bridge__rosidl_typesupport_cpp
+[ 31%] Built target soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp
+[ 42%] Built target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp
+[ 43%] Generating C type support for eProsima Fast-RTPS
+Consolidate compiler generated dependencies of target rl_env_node
+[ 44%] Building CXX object CMakeFiles/rl_env_node.dir/src/rl_env_node.cpp.o
+running egg_info
+writing soma_cube_rl_bridge.egg-info/PKG-INFO
+writing dependency_links to soma_cube_rl_bridge.egg-info/dependency_links.txt
+writing top-level names to soma_cube_rl_bridge.egg-info/top_level.txt
+reading manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'
+writing manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'
+[ 44%] Built target ament_cmake_python_build_soma_cube_rl_bridge_egg
+[ 46%] Building CXX object CMakeFiles/motion_proxy_node.dir/src/motion_proxy_node.cpp.o
+[ 47%] Building CXX object CMakeFiles/safety_monitor_node.dir/src/safety_monitor_node.cpp.o
+[ 49%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soma_cube_rl_bridge/srv/detail/rl_reset__type_support_c.cpp.o
+[ 50%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support_c.cpp.o
+[ 52%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soma_cube_rl_bridge/srv/detail/rl_step__type_support_c.cpp.o
+[ 53%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soma_cube_rl_bridge/msg/detail/safety_state__type_support_c.cpp.o
+[ 55%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soma_cube_rl_bridge/msg/detail/rl_observation__type_support_c.cpp.o
+[ 56%] Linking CXX shared library libsoma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.so
+[ 56%] Built target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c
+[ 57%] Linking CXX executable rl_env_node
+[ 57%] Built target rl_env_node

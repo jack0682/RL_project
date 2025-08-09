@@ -1,0 +1,4 @@
+source;share/soma_cube_rl_bridge/environment/ament_prefix_path.sh
+source;share/soma_cube_rl_bridge/environment/library_path.sh
+source;share/soma_cube_rl_bridge/environment/path.sh
+source;share/soma_cube_rl_bridge/environment/pythonpath.sh

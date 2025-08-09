@@ -1,0 +1,72 @@
+[1.320s] Invoking command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice': PYTHONPATH=/home/jack/ros2_ws/build/pick_and_place_voice/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/pick_and_place_voice build --build-base /home/jack/ros2_ws/build/pick_and_place_voice/build install --record /home/jack/ros2_ws/build/pick_and_place_voice/install.log --single-version-externally-managed install_data
+[1.617s] running egg_info
+[1.618s] creating ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info
+[1.618s] writing ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/PKG-INFO
+[1.618s] writing dependency_links to ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/dependency_links.txt
+[1.618s] writing entry points to ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/entry_points.txt
+[1.618s] writing requirements to ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/requires.txt
+[1.619s] writing top-level names to ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/top_level.txt
+[1.619s] writing manifest file '../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/SOURCES.txt'
+[1.620s] reading manifest file '../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/SOURCES.txt'
+[1.621s] writing manifest file '../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info/SOURCES.txt'
+[1.621s] running build
+[1.621s] running build_py
+[1.622s] creating /home/jack/ros2_ws/build/pick_and_place_voice/build
+[1.622s] creating /home/jack/ros2_ws/build/pick_and_place_voice/build/lib
+[1.622s] creating /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection
+[1.622s] copying object_detection/yolo.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection
+[1.622s] copying object_detection/detection.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection
+[1.622s] copying object_detection/realsense.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection
+[1.622s] copying object_detection/__init__.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection
+[1.622s] creating /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control
+[1.623s] copying robot_control/robot_control.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control
+[1.623s] copying robot_control/__init__.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control
+[1.623s] copying robot_control/onrobot.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control
+[1.623s] creating /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing
+[1.623s] copying voice_processing/wakeup_word.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing
+[1.623s] copying voice_processing/stt.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing
+[1.623s] copying voice_processing/__init__.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing
+[1.623s] copying voice_processing/MicController.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing
+[1.624s] copying voice_processing/get_keyword.py -> /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing
+[1.624s] running install
+[1.624s] running install_lib
+[1.624s] creating /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection
+[1.625s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection/yolo.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection
+[1.625s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection/detection.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection
+[1.625s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection/realsense.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection
+[1.625s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/object_detection/__init__.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection
+[1.625s] creating /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control
+[1.626s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control/robot_control.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control
+[1.626s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control/__init__.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control
+[1.626s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/robot_control/onrobot.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control
+[1.626s] creating /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing
+[1.626s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing/wakeup_word.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing
+[1.626s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing/stt.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing
+[1.626s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing/__init__.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing
+[1.627s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing/MicController.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing
+[1.627s] copying /home/jack/ros2_ws/build/pick_and_place_voice/build/lib/voice_processing/get_keyword.py -> /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing
+[1.627s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection/yolo.py to yolo.cpython-310.pyc
+[1.628s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection/detection.py to detection.cpython-310.pyc
+[1.628s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection/realsense.py to realsense.cpython-310.pyc
+[1.629s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+[1.629s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control/robot_control.py to robot_control.cpython-310.pyc
+[1.630s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control/__init__.py to __init__.cpython-310.pyc
+[1.630s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/robot_control/onrobot.py to onrobot.cpython-310.pyc
+[1.631s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing/wakeup_word.py to wakeup_word.cpython-310.pyc
+[1.631s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing/stt.py to stt.cpython-310.pyc
+[1.632s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing/__init__.py to __init__.cpython-310.pyc
+[1.632s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing/MicController.py to MicController.cpython-310.pyc
+[1.632s] byte-compiling /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/voice_processing/get_keyword.py to get_keyword.cpython-310.pyc
+[1.633s] running install_data
+[1.633s] copying package.xml -> /home/jack/ros2_ws/install/pick_and_place_voice/share/pick_and_place_voice
+[1.633s] creating /home/jack/ros2_ws/install/pick_and_place_voice/share/pick_and_place_voice/resource
+[1.633s] copying resource/pick_and_place_voice -> /home/jack/ros2_ws/install/pick_and_place_voice/share/pick_and_place_voice/resource
+[1.633s] copying resource/hello_rokey_8332_32.tflite -> /home/jack/ros2_ws/install/pick_and_place_voice/share/pick_and_place_voice/resource
+[1.634s] running install_egg_info
+[1.636s] Copying ../../../../build/pick_and_place_voice/pick_and_place_voice.egg-info to /home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages/pick_and_place_voice-0.0.0-py3.10.egg-info
+[1.637s] running install_scripts
+[1.659s] Installing get_keyword script to /home/jack/ros2_ws/install/pick_and_place_voice/lib/pick_and_place_voice
+[1.659s] Installing object_detection script to /home/jack/ros2_ws/install/pick_and_place_voice/lib/pick_and_place_voice
+[1.659s] Installing robot_control script to /home/jack/ros2_ws/install/pick_and_place_voice/lib/pick_and_place_voice
+[1.659s] writing list of installed files to '/home/jack/ros2_ws/build/pick_and_place_voice/install.log'
+[1.683s] Invoked command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice' returned '0': PYTHONPATH=/home/jack/ros2_ws/build/pick_and_place_voice/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/pick_and_place_voice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/pick_and_place_voice build --build-base /home/jack/ros2_ws/build/pick_and_place_voice/build install --record /home/jack/ros2_ws/build/pick_and_place_voice/install.log --single-version-externally-managed install_data

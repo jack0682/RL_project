@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (-) JobUnselected: {'identifier': 'dsr_bringup2'}
+[0.000313] (-) JobUnselected: {'identifier': 'dsr_common2'}
+[0.000327] (-) JobUnselected: {'identifier': 'dsr_controller2'}
+[0.000339] (-) JobUnselected: {'identifier': 'dsr_description2'}
+[0.000351] (-) JobUnselected: {'identifier': 'dsr_example'}
+[0.000365] (-) JobUnselected: {'identifier': 'dsr_gazebo2'}
+[0.000377] (-) JobUnselected: {'identifier': 'dsr_hardware2'}
+[0.000389] (-) JobUnselected: {'identifier': 'dsr_moveit_config_a0509'}
+[0.000401] (-) JobUnselected: {'identifier': 'dsr_moveit_config_a0912'}
+[0.000412] (-) JobUnselected: {'identifier': 'dsr_moveit_config_e0509'}
+[0.000425] (-) JobUnselected: {'identifier': 'dsr_moveit_config_h2017'}
+[0.000438] (-) JobUnselected: {'identifier': 'dsr_moveit_config_h2515'}
+[0.000450] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m0609'}
+[0.000462] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m0617'}
+[0.000474] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m1013'}
+[0.000485] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m1509'}
+[0.000497] (-) JobUnselected: {'identifier': 'dsr_moveit_config_p3020'}
+[0.000508] (-) JobUnselected: {'identifier': 'dsr_msgs2'}
+[0.000520] (-) JobUnselected: {'identifier': 'dsr_realtime_control'}
+[0.000532] (-) JobUnselected: {'identifier': 'dsr_tests'}
+[0.000544] (-) JobUnselected: {'identifier': 'dsr_visualservoing'}
+[0.000555] (-) JobUnselected: {'identifier': 'od_msg'}
+[0.000566] (-) JobUnselected: {'identifier': 'pick_and_place_text'}
+[0.000577] (-) JobUnselected: {'identifier': 'pick_and_place_voice'}
+[0.000589] (-) JobUnselected: {'identifier': 'rokey'}
+[0.000601] (soma_cube_rl_bridge) JobQueued: {'identifier': 'soma_cube_rl_bridge', 'dependencies': OrderedDict([('dsr_common2', '/home/jack/ros2_ws/install/dsr_common2'), ('dsr_msgs2', '/home/jack/ros2_ws/install/dsr_msgs2')])}
+[0.000623] (soma_cube_rl_bridge) JobStarted: {'identifier': 'soma_cube_rl_bridge'}
+[0.017375] (soma_cube_rl_bridge) JobProgress: {'identifier': 'soma_cube_rl_bridge', 'progress': 'cmake'}
+[0.017424] (soma_cube_rl_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge', '-DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/soma_cube_rl_bridge'], 'cwd': '/home/jack/ros2_ws/build/soma_cube_rl_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jack'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jack/ros2_ws/install/dsr_msgs2/lib:/usr/local/cuda-11.8/lib64:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jack/ORB_SLAM2/lib'), ('HOME', '/home/jack'), ('OLDPWD', '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jack/.nvm/versions/node/v24.5.0/bin'), ('NVM_INC', '/home/jack/.nvm/versions/node/v24.5.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2772'), ('SYSTEMD_EXEC_PID', '3263'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5774'), ('NVM_DIR', '/home/jack/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:22627'), ('_', '/home/jack/.local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jack/.nvm/versions/node/v24.5.0/bin:/usr/local/cuda-11.8/bin:/home/jack/.local/bin:/opt/ros/humble/bin:/home/jack/.local/bin:/home/jack/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack:@/tmp/.ICE-unix/2989,unix/jack:/tmp/.ICE-unix/2989'), ('INVOCATION_ID', '6f1cf0a58e0d4b75bf619709b06bb261'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a627fb7f-c342-4025-9a04-fda55c424127'), ('ROS_DISCOVERY_SERVER', ';;;192.168.103.3:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_ws/build/soma_cube_rl_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2')]), 'shell': False}
+[0.099749] (-) TimerEvent: {}
+[0.125424] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.201514] (-) TimerEvent: {}
+[0.218920] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.233389] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301604] (-) TimerEvent: {}
+[0.305838] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.313110] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.313433] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.314482] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.317622] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402651] (-) TimerEvent: {}
+[0.404536] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.412642] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.412999] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.413398] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.417046] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.502860] (-) TimerEvent: {}
+[0.570961] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.603248] (-) TimerEvent: {}
+[0.691783] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.703332] (-) TimerEvent: {}
+[0.759287] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.766086] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.783181] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801914] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.803400] (-) TimerEvent: {}
+[0.824790] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.888615] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.893105] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.903473] (-) TimerEvent: {}
+[0.994074] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.003568] (-) TimerEvent: {}
+[1.028717] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.078847] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.092331] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.103714] (-) TimerEvent: {}
+[1.174490] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.175706] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.203809] (-) TimerEvent: {}
+[1.238745] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.239513] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.302171] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.303874] (-) TimerEvent: {}
+[1.330148] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.347782] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.371626] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.383701] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found dsr_msgs2: 1.1.0 (/home/jack/ros2_ws/install/dsr_msgs2/share/dsr_msgs2/cmake)\n'}
+[1.401650] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found dsr_common2: 1.1.0 (/home/jack/ros2_ws/install/dsr_common2/share/dsr_common2/cmake)\n'}
+[1.403943] (-) TimerEvent: {}
+[1.504341] (-) TimerEvent: {}
+[1.599570] (soma_cube_rl_bridge) StderrLine: {'line': b"Error parsing '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/package.xml':\n"}
+[1.604409] (-) TimerEvent: {}
+[1.634076] (soma_cube_rl_bridge) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.634225] (soma_cube_rl_bridge) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.634405] (soma_cube_rl_bridge) StderrLine: {'line': b'    main()\n'}
+[1.634469] (soma_cube_rl_bridge) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.634523] (soma_cube_rl_bridge) StderrLine: {'line': b'    raise e\n'}
+[1.634573] (soma_cube_rl_bridge) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.634624] (soma_cube_rl_bridge) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.634673] (soma_cube_rl_bridge) StderrLine: {'line': b'  File "/home/jack/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[1.634742] (soma_cube_rl_bridge) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[1.634798] (soma_cube_rl_bridge) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/package.xml':\n"}
+[1.634866] (soma_cube_rl_bridge) StderrLine: {'line': b'Error(s):\n'}
+[1.634920] (soma_cube_rl_bridge) StderrLine: {'line': b"- The generic dependency on 'rosidl_default_runtime' is redundant with: exec_depend\n"}
+[1.644901] (soma_cube_rl_bridge) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.645024] (soma_cube_rl_bridge) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.645080] (soma_cube_rl_bridge) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.645131] (soma_cube_rl_bridge) StderrLine: {'line': b'  /home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/package.xml\n'}
+[1.645181] (soma_cube_rl_bridge) StderrLine: {'line': b'  /home/jack/ros2_ws/build/soma_cube_rl_bridge/ament_cmake_core/package.cmake)\n'}
+[1.645231] (soma_cube_rl_bridge) StderrLine: {'line': b'  returned error code 1\n'}
+[1.645280] (soma_cube_rl_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.645329] (soma_cube_rl_bridge) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.645378] (soma_cube_rl_bridge) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[1.645427] (soma_cube_rl_bridge) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[1.645475] (soma_cube_rl_bridge) StderrLine: {'line': b'\n'}
+[1.645526] (soma_cube_rl_bridge) StderrLine: {'line': b'\n'}
+[1.645577] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.645632] (soma_cube_rl_bridge) StdoutLine: {'line': b'See also "/home/jack/ros2_ws/build/soma_cube_rl_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[1.655113] (soma_cube_rl_bridge) CommandEnded: {'returncode': 1}
+[1.657896] (soma_cube_rl_bridge) JobEnded: {'identifier': 'soma_cube_rl_bridge', 'rc': 1}
+[1.665948] (-) EventReactorShutdown: {}

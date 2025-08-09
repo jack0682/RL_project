@@ -1,0 +1,4 @@
+source;share/soma_cube_rl_bridge/local_setup.bash
+source;share/soma_cube_rl_bridge/local_setup.dsv
+source;share/soma_cube_rl_bridge/local_setup.sh
+source;share/soma_cube_rl_bridge/local_setup.zsh

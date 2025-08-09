@@ -1,0 +1,314 @@
+[  1%] Built target soma_cube_rl_bridge__cpp
+[  1%] Built target ament_cmake_python_copy_soma_cube_rl_bridge
+[ 11%] Built target soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp
+running egg_info
+writing soma_cube_rl_bridge.egg-info/PKG-INFO
+writing dependency_links to soma_cube_rl_bridge.egg-info/dependency_links.txt
+writing top-level names to soma_cube_rl_bridge.egg-info/top_level.txt
+reading manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'
+writing manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'
+[ 11%] Built target ament_cmake_python_build_soma_cube_rl_bridge_egg
+[ 21%] Built target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp
+[ 31%] Built target soma_cube_rl_bridge__rosidl_typesupport_cpp
+[ 42%] Built target soma_cube_rl_bridge__rosidl_generator_c
+Consolidate compiler generated dependencies of target rl_env_node
+[ 44%] Built target rl_env_node
+[ 46%] Generating C type support dispatch for ROS interfaces
+[ 47%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_c.dir/rosidl_typesupport_c/soma_cube_rl_bridge/srv/rl_reset__type_support.cpp.o
+[ 49%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_c.dir/rosidl_typesupport_c/soma_cube_rl_bridge/msg/safety_state__type_support.cpp.o
+[ 50%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_c.dir/rosidl_typesupport_c/soma_cube_rl_bridge/msg/rl_observation__type_support.cpp.o
+[ 52%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_c.dir/rosidl_typesupport_c/soma_cube_rl_bridge/srv/get_safety_state__type_support.cpp.o
+[ 53%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_c.dir/rosidl_typesupport_c/soma_cube_rl_bridge/srv/rl_step__type_support.cpp.o
+[ 55%] Linking CXX shared library libsoma_cube_rl_bridge__rosidl_typesupport_c.so
+[ 55%] Built target soma_cube_rl_bridge__rosidl_typesupport_c
+[ 56%] Generating C introspection for ROS interfaces
+[ 57%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.c.o
+[ 59%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/safety_state__type_support.c.o
+[ 60%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.c.o
+[ 62%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.c.o
+[ 63%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soma_cube_rl_bridge/srv/detail/rl_step__type_support.c.o
+[ 65%] Linking C shared library libsoma_cube_rl_bridge__rosidl_typesupport_introspection_c.so
+[ 65%] Built target soma_cube_rl_bridge__rosidl_typesupport_introspection_c
+Consolidate compiler generated dependencies of target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c
+[ 75%] Built target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c
+Consolidate compiler generated dependencies of target safety_monitor_node
+[ 76%] Building CXX object CMakeFiles/safety_monitor_node.dir/src/safety_monitor_node.cpp.o
+[ 78%] Linking CXX executable safety_monitor_node
+[ 78%] Built target safety_monitor_node
+[ 78%] Built target soma_cube_rl_bridge
+Consolidate compiler generated dependencies of target motion_proxy_node
+[ 79%] Building CXX object CMakeFiles/motion_proxy_node.dir/src/motion_proxy_node.cpp.o
+[ 81%] Linking CXX executable motion_proxy_node
+[ 81%] Built target motion_proxy_node
+[ 82%] Generating Python code for ROS interfaces
+[ 82%] Built target soma_cube_rl_bridge__py
+[ 84%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_py.dir/rosidl_generator_py/soma_cube_rl_bridge/srv/_rl_reset_s.c.o
+[ 85%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_py.dir/rosidl_generator_py/soma_cube_rl_bridge/srv/_get_safety_state_s.c.o
+[ 86%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_py.dir/rosidl_generator_py/soma_cube_rl_bridge/msg/_rl_observation_s.c.o
+[ 88%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_py.dir/rosidl_generator_py/soma_cube_rl_bridge/srv/_rl_step_s.c.o
+[ 89%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_py.dir/rosidl_generator_py/soma_cube_rl_bridge/msg/_safety_state_s.c.o
+[ 91%] Linking C shared library rosidl_generator_py/soma_cube_rl_bridge/libsoma_cube_rl_bridge__rosidl_generator_py.so
+[ 91%] Built target soma_cube_rl_bridge__rosidl_generator_py
+[ 94%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/soma_cube_rl_bridge/_soma_cube_rl_bridge_s.ep.rosidl_typesupport_c.c.o
+[ 94%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/soma_cube_rl_bridge/_soma_cube_rl_bridge_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 95%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/soma_cube_rl_bridge/_soma_cube_rl_bridge_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 97%] Linking C shared library rosidl_generator_py/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[ 98%] Linking C shared library rosidl_generator_py/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[100%] Linking C shared library rosidl_generator_py/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target soma_cube_rl_bridge__rosidl_typesupport_c__pyext
+[100%] Built target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target soma_cube_rl_bridge__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/ament_index/resource_index/rosidl_interfaces/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__functions.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__type_support.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__struct.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__struct.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__functions.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__functions.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__functions.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__struct.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__functions.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__functions.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/rl_step.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/get_safety_state.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/rl_reset.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__struct.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__functions.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__type_support.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__functions.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__functions.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__struct.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__functions.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rl_observation.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/safety_state.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/library_path.sh
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/library_path.dsv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_generator_c.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__traits.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__builder.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__builder.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__traits.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__builder.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__traits.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__struct.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__type_support.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__struct.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__struct.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/rl_step.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/rl_reset.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/get_safety_state.hpp
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__builder.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__traits.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__struct.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__builder.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__traits.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__struct.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__type_support.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/safety_state.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rl_observation.hpp
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/dds_fastrtps
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/dds_fastrtps
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__type_support.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__type_support.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_step__type_support.cpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.cpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.cpp
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/safety_state__type_support.cpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.cpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/pythonpath.sh
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/pythonpath.dsv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge-1.0.0-py3.10.egg-info
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/libsoma_cube_rl_bridge__rosidl_generator_py.so
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_rl_step_s.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_get_safety_state_s.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_rl_reset_s.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/__init__.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_rl_reset.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_rl_step.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_get_safety_state.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/_rl_observation.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/_safety_state_s.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/_rl_observation_s.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/__init__.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/_safety_state.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/__init__.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/_soma_cube_rl_bridge_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/_soma_cube_rl_bridge_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/_soma_cube_rl_bridge_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/__init__.py'...
+Listing '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/__init__.py'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/_rl_observation.py'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/msg/_safety_state.py'...
+Listing '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/__init__.py'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_get_safety_state.py'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_rl_reset.py'...
+Compiling '/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/srv/_rl_step.py'...
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/local/lib/python3.10/dist-packages/soma_cube_rl_bridge/soma_cube_rl_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_generator_py.so
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/libsoma_cube_rl_bridge__rosidl_generator_py.so" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLReset.idl
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLStep.idl
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/GetSafetyState.idl
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/msg/RLObservation.idl
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/msg/SafetyState.idl
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLReset.srv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLReset_Request.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLReset_Response.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLStep.srv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLStep_Request.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/RLStep_Response.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/GetSafetyState.srv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/GetSafetyState_Request.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/srv/GetSafetyState_Response.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/msg/RLObservation.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/msg/SafetyState.msg
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/soma_cube_rl_bridge/motion_proxy_node
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/soma_cube_rl_bridge/motion_proxy_node" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/soma_cube_rl_bridge/safety_monitor_node
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/soma_cube_rl_bridge/safety_monitor_node" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/soma_cube_rl_bridge/rl_env_node
+-- Set runtime path of "/home/jack/ros2_ws/install/soma_cube_rl_bridge/lib/soma_cube_rl_bridge/rl_env_node" to ""
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/launch
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/launch/soma_cube_rl.launch.py
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/config
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/config/soma_cube_rl_real.yaml
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/config/soma_cube_rl_sim.yaml
+-- Up-to-date: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/rl_env_node.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/motion_proxy_node.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/include/soma_cube_rl_bridge/safety_monitor_node.hpp
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/ament_index/resource_index/package_run_dependencies/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/ament_index/resource_index/parent_prefix_path/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/path.sh
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/environment/path.dsv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/local_setup.bash
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/local_setup.sh
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/local_setup.zsh
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/local_setup.dsv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/package.dsv
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/ament_index/resource_index/packages/soma_cube_rl_bridge
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_generator_cExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_generator_cppExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_cExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridge__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_generator_pyExport.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/export_soma_cube_rl_bridge__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridgeConfig.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/cmake/soma_cube_rl_bridgeConfig-version.cmake
+-- Installing: /home/jack/ros2_ws/install/soma_cube_rl_bridge/share/soma_cube_rl_bridge/package.xml

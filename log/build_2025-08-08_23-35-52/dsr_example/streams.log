@@ -1,0 +1,21 @@
+[1.557s] Invoking command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example': CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_common2:/home/jack/ros2_ws/install/od_msg:/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_moveit_config_p3020:/home/jack/ros2_ws/install/dsr_moveit_config_m1509:/home/jack/ros2_ws/install/dsr_moveit_config_m1013:/home/jack/ros2_ws/install/dsr_moveit_config_m0617:/home/jack/ros2_ws/install/dsr_moveit_config_m0609:/home/jack/ros2_ws/install/dsr_moveit_config_h2515:/home/jack/ros2_ws/install/dsr_moveit_config_h2017:/home/jack/ros2_ws/install/dsr_moveit_config_e0509:/home/jack/ros2_ws/install/dsr_moveit_config_a0912:/home/jack/ros2_ws/install/dsr_moveit_config_a0509:/home/jack/ros2_ws/install/dsr_description2 PYTHONPATH=/home/jack/ros2_ws/build/dsr_example/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/dsr_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/dsr_example build --build-base /home/jack/ros2_ws/build/dsr_example/build install --record /home/jack/ros2_ws/build/dsr_example/install.log --single-version-externally-managed install_data
+[1.768s] running egg_info
+[1.768s] writing ../../../../build/dsr_example/dsr_example.egg-info/PKG-INFO
+[1.768s] writing dependency_links to ../../../../build/dsr_example/dsr_example.egg-info/dependency_links.txt
+[1.768s] writing entry points to ../../../../build/dsr_example/dsr_example.egg-info/entry_points.txt
+[1.769s] writing requirements to ../../../../build/dsr_example/dsr_example.egg-info/requires.txt
+[1.769s] writing top-level names to ../../../../build/dsr_example/dsr_example.egg-info/top_level.txt
+[1.770s] reading manifest file '../../../../build/dsr_example/dsr_example.egg-info/SOURCES.txt'
+[1.771s] writing manifest file '../../../../build/dsr_example/dsr_example.egg-info/SOURCES.txt'
+[1.771s] running build
+[1.771s] running build_py
+[1.772s] running install
+[1.772s] running install_lib
+[1.773s] running install_data
+[1.773s] running install_egg_info
+[1.774s] removing '/home/jack/ros2_ws/install/dsr_example/lib/python3.10/site-packages/dsr_example-0.0.0-py3.10.egg-info' (and everything under it)
+[1.775s] Copying ../../../../build/dsr_example/dsr_example.egg-info to /home/jack/ros2_ws/install/dsr_example/lib/python3.10/site-packages/dsr_example-0.0.0-py3.10.egg-info
+[1.775s] running install_scripts
+[1.791s] Installing dance script to /home/jack/ros2_ws/install/dsr_example/lib/dsr_example
+[1.791s] Installing single_robot_simple script to /home/jack/ros2_ws/install/dsr_example/lib/dsr_example
+[1.791s] writing list of installed files to '/home/jack/ros2_ws/build/dsr_example/install.log'

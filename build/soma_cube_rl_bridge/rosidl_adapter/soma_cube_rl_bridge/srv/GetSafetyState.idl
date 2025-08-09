@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from soma_cube_rl_bridge/srv/GetSafetyState.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module soma_cube_rl_bridge {
+  module srv {
+    struct GetSafetyState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetSafetyState_Response {
+      boolean safe_to_move;
+
+      string reason;
+
+      builtin_interfaces::msg::Time last_event_time;
+    };
+  };
+};

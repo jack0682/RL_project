@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soma_cube_rl_bridge/msg/RLObservation.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module soma_cube_rl_bridge {
+  module msg {
+    struct RLObservation {
+      std_msgs::msg::Header header;
+
+      sequence<double> joint_positions;
+
+      sequence<double> joint_velocities;
+
+      geometry_msgs::msg::Pose tcp_pose;
+
+      sequence<double> tool_force;
+
+      uint32 gripper_status;
+
+      uint32 robot_state;
+
+      boolean task_success;
+
+      boolean contact_detected;
+    };
+  };
+};

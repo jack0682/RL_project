@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'dsr_bringup2'}
+[0.000100] (-) JobUnselected: {'identifier': 'dsr_common2'}
+[0.000112] (-) JobUnselected: {'identifier': 'dsr_controller2'}
+[0.000121] (-) JobUnselected: {'identifier': 'dsr_description2'}
+[0.000130] (-) JobUnselected: {'identifier': 'dsr_example'}
+[0.000141] (-) JobUnselected: {'identifier': 'dsr_gazebo2'}
+[0.000150] (-) JobUnselected: {'identifier': 'dsr_hardware2'}
+[0.000158] (-) JobUnselected: {'identifier': 'dsr_moveit_config_a0509'}
+[0.000165] (-) JobUnselected: {'identifier': 'dsr_moveit_config_a0912'}
+[0.000173] (-) JobUnselected: {'identifier': 'dsr_moveit_config_e0509'}
+[0.000180] (-) JobUnselected: {'identifier': 'dsr_moveit_config_h2017'}
+[0.000188] (-) JobUnselected: {'identifier': 'dsr_moveit_config_h2515'}
+[0.000196] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m0609'}
+[0.000203] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m0617'}
+[0.000217] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m1013'}
+[0.000232] (-) JobUnselected: {'identifier': 'dsr_moveit_config_m1509'}
+[0.000246] (-) JobUnselected: {'identifier': 'dsr_moveit_config_p3020'}
+[0.000260] (-) JobUnselected: {'identifier': 'dsr_msgs2'}
+[0.000276] (-) JobUnselected: {'identifier': 'dsr_realtime_control'}
+[0.000291] (-) JobUnselected: {'identifier': 'dsr_tests'}
+[0.000300] (-) JobUnselected: {'identifier': 'dsr_visualservoing'}
+[0.000307] (-) JobUnselected: {'identifier': 'od_msg'}
+[0.000315] (-) JobUnselected: {'identifier': 'pick_and_place_text'}
+[0.000323] (-) JobUnselected: {'identifier': 'pick_and_place_voice'}
+[0.000331] (-) JobUnselected: {'identifier': 'rokey'}
+[0.000340] (soma_cube_rl_bridge) JobQueued: {'identifier': 'soma_cube_rl_bridge', 'dependencies': OrderedDict([('dsr_common2', '/home/jack/ros2_ws/install/dsr_common2'), ('dsr_msgs2', '/home/jack/ros2_ws/install/dsr_msgs2')])}
+[0.000354] (soma_cube_rl_bridge) JobStarted: {'identifier': 'soma_cube_rl_bridge'}
+[0.009946] (soma_cube_rl_bridge) JobProgress: {'identifier': 'soma_cube_rl_bridge', 'progress': 'cmake'}
+[0.011227] (soma_cube_rl_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge', '-DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/soma_cube_rl_bridge'], 'cwd': '/home/jack/ros2_ws/build/soma_cube_rl_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jack'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jack/ros2_ws/install/dsr_msgs2/lib:/usr/local/cuda-11.8/lib64:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jack/ORB_SLAM2/lib'), ('HOME', '/home/jack'), ('OLDPWD', '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jack/.nvm/versions/node/v24.5.0/bin'), ('NVM_INC', '/home/jack/.nvm/versions/node/v24.5.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2772'), ('SYSTEMD_EXEC_PID', '3263'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5774'), ('NVM_DIR', '/home/jack/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:22627'), ('_', '/home/jack/.local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jack/.nvm/versions/node/v24.5.0/bin:/usr/local/cuda-11.8/bin:/home/jack/.local/bin:/opt/ros/humble/bin:/home/jack/.local/bin:/home/jack/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack:@/tmp/.ICE-unix/2989,unix/jack:/tmp/.ICE-unix/2989'), ('INVOCATION_ID', '6f1cf0a58e0d4b75bf619709b06bb261'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a627fb7f-c342-4025-9a04-fda55c424127'), ('ROS_DISCOVERY_SERVER', ';;;192.168.103.3:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_ws/build/soma_cube_rl_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:/opt/ros/humble')]), 'shell': False}
+[0.023286] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099337] (-) TimerEvent: {}
+[0.116157] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.144256] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.146536] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.151844] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.160938] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174855] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199412] (-) TimerEvent: {}
+[0.203060] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.204488] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.301804] (-) TimerEvent: {}
+[0.318864] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.366834] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.382474] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.394796] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.401869] (-) TimerEvent: {}
+[0.412290] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.419235] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found dsr_msgs2: 1.1.0 (/home/jack/ros2_ws/install/dsr_msgs2/share/dsr_msgs2/cmake)\n'}
+[0.433482] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found dsr_common2: 1.1.0 (/home/jack/ros2_ws/install/dsr_common2/share/dsr_common2/cmake)\n'}
+[0.501960] (-) TimerEvent: {}
+[0.602104] (-) TimerEvent: {}
+[0.702248] (-) TimerEvent: {}
+[0.733145] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.802337] (-) TimerEvent: {}
+[0.902685] (-) TimerEvent: {}
+[1.002897] (-) TimerEvent: {}
+[1.103542] (-) TimerEvent: {}
+[1.141116] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.204802] (-) TimerEvent: {}
+[1.284420] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303569] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.303892] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.304860] (-) TimerEvent: {}
+[1.324065] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.324164] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.324220] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.324274] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.340893] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.392072] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.405516] (-) TimerEvent: {}
+[1.425885] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.427822] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.428927] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/include\n'}
+[1.429005] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.430844] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.430926] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.431586] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.432287] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.433026] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.435256] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.435343] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.437031] (soma_cube_rl_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.439275] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.501804] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.505596] (-) TimerEvent: {}
+[1.518508] (soma_cube_rl_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/jack/ros2_ws/build/soma_cube_rl_bridge\n'}
+[1.531895] (soma_cube_rl_bridge) CommandEnded: {'returncode': 0}
+[1.532285] (soma_cube_rl_bridge) JobProgress: {'identifier': 'soma_cube_rl_bridge', 'progress': 'build'}
+[1.532304] (soma_cube_rl_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jack/ros2_ws/build/soma_cube_rl_bridge', '--', '-j16', '-l16'], 'cwd': '/home/jack/ros2_ws/build/soma_cube_rl_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jack'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jack/ros2_ws/install/dsr_msgs2/lib:/usr/local/cuda-11.8/lib64:/usr/local/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jack/ORB_SLAM2/lib'), ('HOME', '/home/jack'), ('OLDPWD', '/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jack/.nvm/versions/node/v24.5.0/bin'), ('NVM_INC', '/home/jack/.nvm/versions/node/v24.5.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2772'), ('SYSTEMD_EXEC_PID', '3263'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5774'), ('NVM_DIR', '/home/jack/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:22627'), ('_', '/home/jack/.local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jack/.nvm/versions/node/v24.5.0/bin:/usr/local/cuda-11.8/bin:/home/jack/.local/bin:/opt/ros/humble/bin:/home/jack/.local/bin:/home/jack/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack:@/tmp/.ICE-unix/2989,unix/jack:/tmp/.ICE-unix/2989'), ('INVOCATION_ID', '6f1cf0a58e0d4b75bf619709b06bb261'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a627fb7f-c342-4025-9a04-fda55c424127'), ('ROS_DISCOVERY_SERVER', ';;;192.168.103.3:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_ws/build/soma_cube_rl_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_ws/install/dsr_msgs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_ws/install/dsr_msgs2:/home/jack/ros2_ws/install/dsr_common2:/opt/ros/humble')]), 'shell': False}
+[1.587793] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  1%] Generating C++ code for ROS interfaces\n'}
+[1.605680] (-) TimerEvent: {}
+[1.705811] (-) TimerEvent: {}
+[1.805970] (-) TimerEvent: {}
+[1.906122] (-) TimerEvent: {}
+[2.006268] (-) TimerEvent: {}
+[2.106433] (-) TimerEvent: {}
+[2.206617] (-) TimerEvent: {}
+[2.251122] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  1%] Built target soma_cube_rl_bridge__cpp\n'}
+[2.277373] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_soma_cube_rl_bridge\n'}
+[2.286915] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  2%] Generating C++ introspection for ROS interfaces\n'}
+[2.306677] (-) TimerEvent: {}
+[2.406802] (-) TimerEvent: {}
+[2.506998] (-) TimerEvent: {}
+[2.607142] (-) TimerEvent: {}
+[2.707351] (-) TimerEvent: {}
+[2.733107] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  4%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soma_cube_rl_bridge/srv/detail/rl_reset__type_support.cpp.o\n'}
+[2.807646] (-) TimerEvent: {}
+[2.908109] (-) TimerEvent: {}
+[3.009207] (-) TimerEvent: {}
+[3.109433] (-) TimerEvent: {}
+[3.152304] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soma_cube_rl_bridge/msg/detail/safety_state__type_support.cpp.o\n'}
+[3.209518] (-) TimerEvent: {}
+[3.309886] (-) TimerEvent: {}
+[3.410249] (-) TimerEvent: {}
+[3.512809] (-) TimerEvent: {}
+[3.543240] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  7%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soma_cube_rl_bridge/msg/detail/rl_observation__type_support.cpp.o\n'}
+[3.612902] (-) TimerEvent: {}
+[3.713067] (-) TimerEvent: {}
+[3.813241] (-) TimerEvent: {}
+[3.914815] (-) TimerEvent: {}
+[3.919312] (soma_cube_rl_bridge) StdoutLine: {'line': b'[  8%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soma_cube_rl_bridge/srv/detail/get_safety_state__type_support.cpp.o\n'}
+[4.014914] (-) TimerEvent: {}
+[4.115549] (-) TimerEvent: {}
+[4.215856] (-) TimerEvent: {}
+[4.265932] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soma_cube_rl_bridge/srv/detail/rl_step__type_support.cpp.o\n'}
+[4.315998] (-) TimerEvent: {}
+[4.416159] (-) TimerEvent: {}
+[4.516326] (-) TimerEvent: {}
+[4.616568] (-) TimerEvent: {}
+[4.630822] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 11%] Linking CXX shared library libsoma_cube_rl_bridge__rosidl_typesupport_introspection_cpp.so\n'}
+[4.708521] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 11%] Built target soma_cube_rl_bridge__rosidl_typesupport_introspection_cpp\n'}
+[4.716634] (-) TimerEvent: {}
+[4.816834] (-) TimerEvent: {}
+[4.916980] (-) TimerEvent: {}
+[4.991668] (soma_cube_rl_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[4.991966] (soma_cube_rl_bridge) StdoutLine: {'line': b'creating soma_cube_rl_bridge.egg-info\n'}
+[4.992042] (soma_cube_rl_bridge) StdoutLine: {'line': b'writing soma_cube_rl_bridge.egg-info/PKG-INFO\n'}
+[4.992660] (soma_cube_rl_bridge) StdoutLine: {'line': b'writing dependency_links to soma_cube_rl_bridge.egg-info/dependency_links.txt\n'}
+[4.992732] (soma_cube_rl_bridge) StdoutLine: {'line': b'writing top-level names to soma_cube_rl_bridge.egg-info/top_level.txt\n'}
+[4.992857] (soma_cube_rl_bridge) StdoutLine: {'line': b"writing manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'\n"}
+[4.994672] (soma_cube_rl_bridge) StdoutLine: {'line': b"reading manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'\n"}
+[4.995200] (soma_cube_rl_bridge) StdoutLine: {'line': b"writing manifest file 'soma_cube_rl_bridge.egg-info/SOURCES.txt'\n"}
+[5.017144] (-) TimerEvent: {}
+[5.021229] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_soma_cube_rl_bridge_egg\n'}
+[5.031368] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 13%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[5.117231] (-) TimerEvent: {}
+[5.217372] (-) TimerEvent: {}
+[5.317510] (-) TimerEvent: {}
+[5.417675] (-) TimerEvent: {}
+[5.479530] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soma_cube_rl_bridge/srv/detail/dds_fastrtps/rl_reset__type_support.cpp.o\n'}
+[5.517773] (-) TimerEvent: {}
+[5.617941] (-) TimerEvent: {}
+[5.718146] (-) TimerEvent: {}
+[5.818322] (-) TimerEvent: {}
+[5.893802] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 15%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soma_cube_rl_bridge/msg/detail/dds_fastrtps/safety_state__type_support.cpp.o\n'}
+[5.919818] (-) TimerEvent: {}
+[6.020012] (-) TimerEvent: {}
+[6.121207] (-) TimerEvent: {}
+[6.185256] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soma_cube_rl_bridge/msg/detail/dds_fastrtps/rl_observation__type_support.cpp.o\n'}
+[6.221306] (-) TimerEvent: {}
+[6.321489] (-) TimerEvent: {}
+[6.421811] (-) TimerEvent: {}
+[6.507409] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soma_cube_rl_bridge/srv/detail/dds_fastrtps/get_safety_state__type_support.cpp.o\n'}
+[6.522803] (-) TimerEvent: {}
+[6.622955] (-) TimerEvent: {}
+[6.723115] (-) TimerEvent: {}
+[6.823277] (-) TimerEvent: {}
+[6.865965] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soma_cube_rl_bridge/srv/detail/dds_fastrtps/rl_step__type_support.cpp.o\n'}
+[6.923369] (-) TimerEvent: {}
+[7.023531] (-) TimerEvent: {}
+[7.123852] (-) TimerEvent: {}
+[7.224257] (-) TimerEvent: {}
+[7.226942] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 21%] Linking CXX shared library libsoma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.295728] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 21%] Built target soma_cube_rl_bridge__rosidl_typesupport_fastrtps_cpp\n'}
+[7.305235] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 23%] Generating C++ type support dispatch for ROS interfaces\n'}
+[7.324390] (-) TimerEvent: {}
+[7.424809] (-) TimerEvent: {}
+[7.524969] (-) TimerEvent: {}
+[7.625270] (-) TimerEvent: {}
+[7.674428] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soma_cube_rl_bridge/srv/rl_reset__type_support.cpp.o\n'}
+[7.725815] (-) TimerEvent: {}
+[7.826027] (-) TimerEvent: {}
+[7.882245] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soma_cube_rl_bridge/msg/safety_state__type_support.cpp.o\n'}
+[7.926181] (-) TimerEvent: {}
+[8.026353] (-) TimerEvent: {}
+[8.118059] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soma_cube_rl_bridge/msg/rl_observation__type_support.cpp.o\n'}
+[8.126494] (-) TimerEvent: {}
+[8.226638] (-) TimerEvent: {}
+[8.327820] (-) TimerEvent: {}
+[8.354839] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soma_cube_rl_bridge/srv/get_safety_state__type_support.cpp.o\n'}
+[8.427921] (-) TimerEvent: {}
+[8.528097] (-) TimerEvent: {}
+[8.573238] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/soma_cube_rl_bridge__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soma_cube_rl_bridge/srv/rl_step__type_support.cpp.o\n'}
+[8.628187] (-) TimerEvent: {}
+[8.729814] (-) TimerEvent: {}
+[8.820360] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 31%] Linking CXX shared library libsoma_cube_rl_bridge__rosidl_typesupport_cpp.so\n'}
+[8.829884] (-) TimerEvent: {}
+[8.871813] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 31%] Built target soma_cube_rl_bridge__rosidl_typesupport_cpp\n'}
+[8.880299] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 33%] Generating C code for ROS interfaces\n'}
+[8.931799] (-) TimerEvent: {}
+[9.031946] (-) TimerEvent: {}
+[9.132090] (-) TimerEvent: {}
+[9.232235] (-) TimerEvent: {}
+[9.332375] (-) TimerEvent: {}
+[9.432528] (-) TimerEvent: {}
+[9.532687] (-) TimerEvent: {}
+[9.554037] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 34%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_c.dir/rosidl_generator_c/soma_cube_rl_bridge/srv/detail/rl_reset__functions.c.o\n'}
+[9.622463] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 36%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_c.dir/rosidl_generator_c/soma_cube_rl_bridge/msg/detail/safety_state__functions.c.o\n'}
+[9.632783] (-) TimerEvent: {}
+[9.673492] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 37%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_c.dir/rosidl_generator_c/soma_cube_rl_bridge/msg/detail/rl_observation__functions.c.o\n'}
+[9.725517] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 39%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_c.dir/rosidl_generator_c/soma_cube_rl_bridge/srv/detail/get_safety_state__functions.c.o\n'}
+[9.733587] (-) TimerEvent: {}
+[9.782220] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/soma_cube_rl_bridge__rosidl_generator_c.dir/rosidl_generator_c/soma_cube_rl_bridge/srv/detail/rl_step__functions.c.o\n'}
+[9.833922] (-) TimerEvent: {}
+[9.839939] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 42%] Linking C shared library libsoma_cube_rl_bridge__rosidl_generator_c.so\n'}
+[9.882014] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 42%] Built target soma_cube_rl_bridge__rosidl_generator_c\n'}
+[9.901105] (soma_cube_rl_bridge) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/rl_env_node.dir/src/rl_env_node.cpp.o\n'}
+[9.934011] (-) TimerEvent: {}
+[10.034167] (-) TimerEvent: {}
+[10.134329] (-) TimerEvent: {}
+[10.234614] (-) TimerEvent: {}
+[10.334790] (-) TimerEvent: {}
+[10.435081] (-) TimerEvent: {}
+[10.535256] (-) TimerEvent: {}
+[10.635524] (-) TimerEvent: {}
+[10.737875] (-) TimerEvent: {}
+[10.838192] (-) TimerEvent: {}
+[10.938418] (-) TimerEvent: {}
+[11.039766] (-) TimerEvent: {}
+[11.139928] (-) TimerEvent: {}
+[11.240088] (-) TimerEvent: {}
+[11.340250] (-) TimerEvent: {}
+[11.440408] (-) TimerEvent: {}
+[11.540566] (-) TimerEvent: {}
+[11.640726] (-) TimerEvent: {}
+[11.740899] (-) TimerEvent: {}
+[11.841083] (-) TimerEvent: {}
+[11.941245] (-) TimerEvent: {}
+[12.041407] (-) TimerEvent: {}
+[12.141567] (-) TimerEvent: {}
+[12.241771] (-) TimerEvent: {}
+[12.342047] (-) TimerEvent: {}
+[12.442723] (-) TimerEvent: {}
+[12.542894] (-) TimerEvent: {}
+[12.632814] (soma_cube_rl_bridge) StderrLine: {'line': b'/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp: In member function \xe2\x80\x98bool soma_cube_rl_bridge::RLEnvironmentNode::resetToHome()\xe2\x80\x99:\n'}
+[12.632983] (soma_cube_rl_bridge) StderrLine: {'line': b'/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp:394:18: error: no match for \xe2\x80\x98operator=\xe2\x80\x99 (operand types are \xe2\x80\x98dsr_msgs2::srv::MoveJoint_Request_<std::allocator<void> >::_pos_type\xe2\x80\x99 {aka \xe2\x80\x98std::array<double, 6>\xe2\x80\x99} and \xe2\x80\x98std::vector<double, std::allocator<double> >\xe2\x80\x99)\n'}
+[12.633048] (soma_cube_rl_bridge) StderrLine: {'line': b'  394 |   request->pos = home_joint_positions_;\n'}
+[12.633096] (soma_cube_rl_bridge) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~~~~~~~~~~\n'}
+[12.633140] (soma_cube_rl_bridge) StderrLine: {'line': b'In file included from /usr/include/c++/11/tuple:39,\n'}
+[12.633180] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /usr/include/c++/11/bits/unique_ptr.h:37,\n'}
+[12.633218] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /usr/include/c++/11/memory:76,\n'}
+[12.633257] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,\n'}
+[12.633305] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/include/soma_cube_rl_bridge/rl_env_node.hpp:4,\n'}
+[12.633346] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp:1:\n'}
+[12.633381] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note: candidate: \xe2\x80\x98constexpr std::array<double, 6>& std::array<double, 6>::operator=(const std::array<double, 6>&)\xe2\x80\x99\n'}
+[12.633419] (soma_cube_rl_bridge) StderrLine: {'line': b'   95 |     struct array\n'}
+[12.633451] (soma_cube_rl_bridge) StderrLine: {'line': b'      |            ^~~~~\n'}
+[12.633482] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note:   no known conversion for argument 1 from \xe2\x80\x98std::vector<double, std::allocator<double> >\xe2\x80\x99 to \xe2\x80\x98const std::array<double, 6>&\xe2\x80\x99\n'}
+[12.633514] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note: candidate: \xe2\x80\x98constexpr std::array<double, 6>& std::array<double, 6>::operator=(std::array<double, 6>&&)\xe2\x80\x99\n'}
+[12.633545] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note:   no known conversion for argument 1 from \xe2\x80\x98std::vector<double, std::allocator<double> >\xe2\x80\x99 to \xe2\x80\x98std::array<double, 6>&&\xe2\x80\x99\n'}
+[12.633576] (soma_cube_rl_bridge) StderrLine: {'line': b'/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp:400:12: error: \xe2\x80\x98using element_type = struct dsr_msgs2::srv::MoveJoint_Request_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98struct dsr_msgs2::srv::MoveJoint_Request_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98blending_type\xe2\x80\x99; did you mean \xe2\x80\x98blend_type\xe2\x80\x99?\n'}
+[12.633609] (soma_cube_rl_bridge) StderrLine: {'line': b'  400 |   request->blending_type = 0;\n'}
+[12.633639] (soma_cube_rl_bridge) StderrLine: {'line': b'      |            ^~~~~~~~~~~~~\n'}
+[12.633671] (soma_cube_rl_bridge) StderrLine: {'line': b'      |            blend_type\n'}
+[12.634987] (soma_cube_rl_bridge) StderrLine: {'line': b'/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp: In member function \xe2\x80\x98bool soma_cube_rl_bridge::RLEnvironmentNode::executeAction(const std::vector<double, std::allocator<double> >&)\xe2\x80\x99:\n'}
+[12.635039] (soma_cube_rl_bridge) StderrLine: {'line': b'/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp:424:18: error: no match for \xe2\x80\x98operator=\xe2\x80\x99 (operand types are \xe2\x80\x98dsr_msgs2::srv::MoveJoint_Request_<std::allocator<void> >::_pos_type\xe2\x80\x99 {aka \xe2\x80\x98std::array<double, 6>\xe2\x80\x99} and \xe2\x80\x98const std::vector<double, std::allocator<double> >\xe2\x80\x99)\n'}
+[12.635075] (soma_cube_rl_bridge) StderrLine: {'line': b'  424 |   request->pos = processed_action;\n'}
+[12.635107] (soma_cube_rl_bridge) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~~~~~\n'}
+[12.635137] (soma_cube_rl_bridge) StderrLine: {'line': b'In file included from /usr/include/c++/11/tuple:39,\n'}
+[12.635167] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /usr/include/c++/11/bits/unique_ptr.h:37,\n'}
+[12.635198] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /usr/include/c++/11/memory:76,\n'}
+[12.635228] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,\n'}
+[12.635258] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/include/soma_cube_rl_bridge/rl_env_node.hpp:4,\n'}
+[12.635289] (soma_cube_rl_bridge) StderrLine: {'line': b'                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp:1:\n'}
+[12.635325] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note: candidate: \xe2\x80\x98constexpr std::array<double, 6>& std::array<double, 6>::operator=(const std::array<double, 6>&)\xe2\x80\x99\n'}
+[12.635359] (soma_cube_rl_bridge) StderrLine: {'line': b'   95 |     struct array\n'}
+[12.635396] (soma_cube_rl_bridge) StderrLine: {'line': b'      |            ^~~~~\n'}
+[12.635432] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note:   no known conversion for argument 1 from \xe2\x80\x98const std::vector<double, std::allocator<double> >\xe2\x80\x99 to \xe2\x80\x98const std::array<double, 6>&\xe2\x80\x99\n'}
+[12.635470] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note: candidate: \xe2\x80\x98constexpr std::array<double, 6>& std::array<double, 6>::operator=(std::array<double, 6>&&)\xe2\x80\x99\n'}
+[12.635506] (soma_cube_rl_bridge) StderrLine: {'line': b'/usr/include/c++/11/array:95:12: note:   no known conversion for argument 1 from \xe2\x80\x98const std::vector<double, std::allocator<double> >\xe2\x80\x99 to \xe2\x80\x98std::array<double, 6>&&\xe2\x80\x99\n'}
+[12.635554] (soma_cube_rl_bridge) StderrLine: {'line': b'/home/jack/ros2_ws/src/DoosanBootcamp3rd/soma_cube_rl_bridge/src/rl_env_node.cpp:430:12: error: \xe2\x80\x98using element_type = struct dsr_msgs2::srv::MoveJoint_Request_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98struct dsr_msgs2::srv::MoveJoint_Request_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98blending_type\xe2\x80\x99; did you mean \xe2\x80\x98blend_type\xe2\x80\x99?\n'}
+[12.635603] (soma_cube_rl_bridge) StderrLine: {'line': b'  430 |   request->blending_type = 0;\n'}
+[12.635643] (soma_cube_rl_bridge) StderrLine: {'line': b'      |            ^~~~~~~~~~~~~\n'}
+[12.635681] (soma_cube_rl_bridge) StderrLine: {'line': b'      |            blend_type\n'}
+[12.642946] (-) TimerEvent: {}
+[12.743189] (-) TimerEvent: {}
+[12.843389] (-) TimerEvent: {}
+[12.945611] (-) TimerEvent: {}
+[13.045792] (-) TimerEvent: {}
+[13.146335] (-) TimerEvent: {}
+[13.246497] (-) TimerEvent: {}
+[13.346789] (-) TimerEvent: {}
+[13.446952] (-) TimerEvent: {}
+[13.547208] (-) TimerEvent: {}
+[13.647429] (-) TimerEvent: {}
+[13.747594] (-) TimerEvent: {}
+[13.847953] (-) TimerEvent: {}
+[13.948150] (-) TimerEvent: {}
+[14.048506] (-) TimerEvent: {}
+[14.149175] (-) TimerEvent: {}
+[14.249339] (-) TimerEvent: {}
+[14.349580] (-) TimerEvent: {}
+[14.450467] (-) TimerEvent: {}
+[14.551814] (-) TimerEvent: {}
+[14.651982] (-) TimerEvent: {}
+[14.752160] (-) TimerEvent: {}
+[14.852323] (-) TimerEvent: {}
+[14.952563] (-) TimerEvent: {}
+[15.052777] (-) TimerEvent: {}
+[15.152949] (-) TimerEvent: {}
+[15.253283] (-) TimerEvent: {}
+[15.353444] (-) TimerEvent: {}
+[15.453607] (-) TimerEvent: {}
+[15.553776] (-) TimerEvent: {}
+[15.653938] (-) TimerEvent: {}
+[15.754204] (-) TimerEvent: {}
+[15.854368] (-) TimerEvent: {}
+[15.954824] (-) TimerEvent: {}
+[16.054993] (-) TimerEvent: {}
+[16.155157] (-) TimerEvent: {}
+[16.255944] (-) TimerEvent: {}
+[16.356129] (-) TimerEvent: {}
+[16.456377] (-) TimerEvent: {}
+[16.556642] (-) TimerEvent: {}
+[16.656813] (-) TimerEvent: {}
+[16.757023] (-) TimerEvent: {}
+[16.857396] (-) TimerEvent: {}
+[16.957641] (-) TimerEvent: {}
+[17.057820] (-) TimerEvent: {}
+[17.157979] (-) TimerEvent: {}
+[17.258188] (-) TimerEvent: {}
+[17.358419] (-) TimerEvent: {}
+[17.458654] (-) TimerEvent: {}
+[17.558938] (-) TimerEvent: {}
+[17.659104] (-) TimerEvent: {}
+[17.759282] (-) TimerEvent: {}
+[17.815072] (soma_cube_rl_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rl_env_node.dir/build.make:76: CMakeFiles/rl_env_node.dir/src/rl_env_node.cpp.o] Error 1\n'}
+[17.815593] (soma_cube_rl_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/rl_env_node.dir/all] Error 2\n'}
+[17.817807] (soma_cube_rl_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.818348] (soma_cube_rl_bridge) CommandEnded: {'returncode': 2}
+[17.837253] (soma_cube_rl_bridge) JobEnded: {'identifier': 'soma_cube_rl_bridge', 'rc': 2}
+[17.847554] (-) EventReactorShutdown: {}

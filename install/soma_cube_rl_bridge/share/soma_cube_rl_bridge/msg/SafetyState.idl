@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soma_cube_rl_bridge/msg/SafetyState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "std_msgs/msg/Header.idl"
+
+module soma_cube_rl_bridge {
+  module msg {
+    struct SafetyState {
+      std_msgs::msg::Header header;
+
+      boolean safe_to_move;
+
+      string reason;
+
+      builtin_interfaces::msg::Time last_event_time;
+
+      uint32 robot_mode;
+
+      uint32 robot_state;
+
+      boolean emergency_stop;
+
+      boolean protective_stop;
+
+      sequence<boolean> joint_limit_violations;
+    };
+  };
+};
