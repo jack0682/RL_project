@@ -1,0 +1,47 @@
+# Configuration for real Doosan M0609 robot
+# Stricter limits and safety parameters for physical hardware
+
+safety_monitor_node:
+  ros__parameters:
+    monitor_rate_hz: 10.0
+    joint_min_deg: [-170.0, -135.0, -169.0, -90.0, -135.0, -360.0]
+    joint_max_deg: [170.0, 135.0, 169.0, 90.0, 135.0, 360.0]
+    tcp_workspace_min: [-800.0, -800.0, 50.0]  # Conservative workspace
+    tcp_workspace_max: [800.0, 800.0, 1500.0]
+
+motion_proxy_node:
+  ros__parameters:
+    publish_rate_hz: 20.0
+    vel_limit_deg_s: [30.0, 30.0, 30.0, 40.0, 40.0, 50.0]  # Conservative velocities
+    acc_limit_deg_s2: [50.0, 50.0, 50.0, 70.0, 70.0, 100.0]  # Conservative accelerations
+    joint_min_deg: [-170.0, -135.0, -169.0, -90.0, -135.0, -360.0]
+    joint_max_deg: [170.0, 135.0, 169.0, 90.0, 135.0, 360.0]
+    action_timeout_sec: 45.0  # Longer timeout for real robot
+    service_wait_sec: 10.0   # Longer service wait
+    controller_ip: "192.168.1.150"
+
+rl_env_node:
+  ros__parameters:
+    max_episode_steps: 500  # Shorter episodes for safety
+    action_timeout_sec: 45.0
+    service_wait_sec: 10.0
+    joint_min_deg: [-170.0, -135.0, -169.0, -90.0, -135.0, -360.0]
+    joint_max_deg: [170.0, 135.0, 169.0, 90.0, 135.0, 360.0]
+    vel_limit_deg_s: [30.0, 30.0, 30.0, 40.0, 40.0, 50.0]
+    acc_limit_deg_s2: [50.0, 50.0, 50.0, 70.0, 70.0, 100.0]
+    
+    # Reward weights for SomaCube assembly
+    reward_weights:
+      grasp_success: 200.0      # High reward for successful grasp
+      assembly_alignment: 100.0  # Reward for proper alignment
+      collision_penalty: -500.0  # Heavy penalty for collisions
+      time_penalty: -0.2         # Moderate time penalty
+      distance_penalty: -2.0     # Penalty for being far from target
+      velocity_penalty: -0.05    # Penalty for high velocities
+    
+    # Task-specific parameters for SomaCube
+    home_joint_positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    target_tcp_position: [400.0, 0.0, 300.0]  # mm
+    target_tcp_orientation: [0.0, 0.0, 0.0, 1.0]  # quaternion
+    grasp_success_distance: 5.0  # mm
+    assembly_success_distance: 10.0  # mm

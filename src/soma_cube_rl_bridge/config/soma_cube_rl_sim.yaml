@@ -1,0 +1,47 @@
+# Configuration for simulated Doosan M0609 robot
+# More permissive limits for simulation training
+
+safety_monitor_node:
+  ros__parameters:
+    monitor_rate_hz: 20.0  # Higher rate in simulation
+    joint_min_deg: [-170.0, -135.0, -169.0, -90.0, -135.0, -360.0]
+    joint_max_deg: [170.0, 135.0, 169.0, 90.0, 135.0, 360.0]
+    tcp_workspace_min: [-1500.0, -1500.0, 0.0]  # Larger workspace in sim
+    tcp_workspace_max: [1500.0, 1500.0, 2500.0]
+
+motion_proxy_node:
+  ros__parameters:
+    publish_rate_hz: 50.0  # Higher rate in simulation
+    vel_limit_deg_s: [80.0, 80.0, 80.0, 100.0, 100.0, 120.0]  # Higher velocities
+    acc_limit_deg_s2: [150.0, 150.0, 150.0, 200.0, 200.0, 250.0]  # Higher accelerations
+    joint_min_deg: [-170.0, -135.0, -169.0, -90.0, -135.0, -360.0]
+    joint_max_deg: [170.0, 135.0, 169.0, 90.0, 135.0, 360.0]
+    action_timeout_sec: 20.0  # Shorter timeout in simulation
+    service_wait_sec: 2.0    # Shorter service wait
+    controller_ip: "127.0.0.1"  # Localhost for simulation
+
+rl_env_node:
+  ros__parameters:
+    max_episode_steps: 2000  # Longer episodes in simulation
+    action_timeout_sec: 20.0
+    service_wait_sec: 2.0
+    joint_min_deg: [-170.0, -135.0, -169.0, -90.0, -135.0, -360.0]
+    joint_max_deg: [170.0, 135.0, 169.0, 90.0, 135.0, 360.0]
+    vel_limit_deg_s: [80.0, 80.0, 80.0, 100.0, 100.0, 120.0]
+    acc_limit_deg_s2: [150.0, 150.0, 150.0, 200.0, 200.0, 250.0]
+    
+    # Reward weights optimized for simulation training
+    reward_weights:
+      grasp_success: 150.0      # Good reward for successful grasp
+      assembly_alignment: 75.0   # Reward for proper alignment
+      collision_penalty: -200.0  # Moderate penalty for collisions
+      time_penalty: -0.05        # Light time penalty
+      distance_penalty: -0.5     # Light distance penalty
+      velocity_penalty: -0.01    # Light velocity penalty
+    
+    # Task-specific parameters for SomaCube
+    home_joint_positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    target_tcp_position: [500.0, 0.0, 400.0]  # mm (slightly different from real)
+    target_tcp_orientation: [0.0, 0.0, 0.0, 1.0]  # quaternion
+    grasp_success_distance: 10.0  # mm (more permissive)
+    assembly_success_distance: 15.0  # mm (more permissive)

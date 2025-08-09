@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>soma_cube_training_system</name>
+  <version>1.0.0</version>
+  <description>Training system for SomaCube RL with Doosan M0609</description>
+  
+  <maintainer email="user@example.com">ROS2 User</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Core ROS2 dependencies -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>builtin_interfaces</depend>
+
+  <!-- RL Bridge dependency -->
+  <depend>soma_cube_rl_bridge</depend>
+
+  <!-- Python dependencies (installed via pip) -->
+  <exec_depend>python3-numpy</exec_depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

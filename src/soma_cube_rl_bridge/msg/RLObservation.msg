@@ -1,0 +1,9 @@
+std_msgs/Header header
+float64[] joint_positions
+float64[] joint_velocities
+geometry_msgs/Pose tcp_pose
+float64[] tool_force
+uint32 gripper_status
+uint32 robot_state
+bool task_success
+bool contact_detected
